@@ -2,13 +2,56 @@
     margin: 0px;
     padding: 0px;
     font-family: Inter,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
-    font-weight: 200;
+    font-weight: bolder;
+    
+    
+    
+
+}
+#callToAction>p{
+    margin-top: 120px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#callToAction>h1{
+    font-size: 50px;
+    width: 800px;
+    text-align: center;
+    margin: 80px auto;
+
+}
+#callToAction  > a{
+    font-size: 20px;
+    color: white;
+    border: 0.5px black solid;
+    padding: 10px 10px;
+    border-radius: 10%;
+    box-shadow:  1px 1px 10px 1px #888888;
+    
+    
 }
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    z-index: 1;
+    background-color: black;
+    height: 100px;
+    
+}
+nav a > div{
+    font-weight: 500;
+}
+#other-nav-link> a{
+    font-size: 15px;
+    font-weight:400;
+    color: rgba(245, 245, 245, 0.835);
 }
 
 .text-sm{
@@ -34,6 +77,7 @@ a{
 
 .margin{
     margin-left: 15px;
+    
 }
 
 .underline{
@@ -43,12 +87,36 @@ a{
 }
 
 #device-support{
-    color: white;
+    color: gainsboro;
     text-align: center;
-    margin: auto;
+    margin: 120px auto;
     width: 70%;
 }
 
 #callToAction{
     text-align: center;
+    
+}
+#device-support> h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+#device-support a:nth-of-type(2){
+    margin-top: 15px;
+    font-weight: 500;
+    color: rgb(205, 198, 198);
+    font-size: 15px;
+}
+#device-support a:nth-of-type(1)> button{
+height: 60px;
+width: 120px;
+font-size: 15px;
+background-color: #272b2f;
+border: none;
+color:  rgb(205, 198, 198);
+}
+#device-support a:nth-of-type(1)> button:hover{
+    border-radius: 10%;
+    box-shadow:  1px 1px 10px 1px #646363;
 }
